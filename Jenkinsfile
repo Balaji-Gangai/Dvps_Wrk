@@ -8,7 +8,7 @@ pipeline
   stages {
     stage('Build') {
       steps {
-        build 'sonar-app'
+        // build 'sonar-app'
         echo 'Build App'
       }
     }
